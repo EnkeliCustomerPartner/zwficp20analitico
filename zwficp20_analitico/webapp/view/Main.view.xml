@@ -92,7 +92,7 @@
 						<layout:FixFlex id="oVizColumn" minFlexSize="250">
 							<layout:flexContent>
 						
-								<viz:VizFrame id="oVizFrameColumn" vizType="column" height="100%" width="100%" uiConfig="{applicationSet: 'fiori'}">
+								<viz:VizFrame id="oVizFrameColumn" vizType="column" vizProperties="{/vizPropertiesColumn}" height="100%" width="100%" uiConfig="{applicationSet: 'fiori'}">
 
 									<viz:dataset>
 
@@ -133,7 +133,7 @@
 						<layout:FixFlex id="oVizStackedColumn" minFlexSize="250">
 							<layout:flexContent>
 						
-								<viz:VizFrame id="oVizFrameStackedColumn" vizType="stacked_column" height="100%" width="100%" uiConfig="{applicationSet: 'fiori'}">
+								<viz:VizFrame id="oVizFrameStackedColumn" vizType="stacked_column" vizProperties="{/vizPropertiesStackedColumn}" height="100%" width="100%" uiConfig="{applicationSet: 'fiori'}">
 
 									<viz:dataset>
 
@@ -172,7 +172,7 @@
 							<layout:flexContent>
 
 
-							    <viz:VizFrame id="idVizFrameRadar" uiConfig="{applicationSet:'fiori'}"
+							    <viz:VizFrame id="idVizFrameRadar" vizProperties="{/vizPropertiesFrameRadar}" uiConfig="{applicationSet:'fiori'}"
 									height='100%' width="100%" vizType='radar'>
 									<viz:dataset>
 										<viz.data:FlattenedDataset id="flatDataRadar" data="{path: 'negoziazioni>/NegoziazioneHeaderSet'}">

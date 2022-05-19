@@ -66,7 +66,23 @@ sap.ui.define([
 						title:{
 							text: oResourceBundle.getText("PieChartTitle")
 						},	
-					}
+					},
+					vizPropertiesColumn:{
+						title:{
+							text: oResourceBundle.getText("ColumnChartTitle")
+						},	
+					},
+					vizPropertiesStackedColumn:{
+						title:{
+							text: oResourceBundle.getText("StackedColumnTitle")
+						},	
+					},
+					vizPropertiesFrameRadar:{
+						title:{
+							text: oResourceBundle.getText("FrameRadarTitle")
+						},	
+					},
+					
 				};
 
 
